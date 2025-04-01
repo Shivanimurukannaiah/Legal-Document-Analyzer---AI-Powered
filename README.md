@@ -4,8 +4,6 @@ Certainly! Here’s a **detailed README** for your project:
 
 ---
 
-# Legal Document Analyzer - AI Powered
-
 This project is a **Legal Document Analyzer** powered by **OpenAI's GPT-3.5/4**. The goal of the application is to help users analyze legal documents by extracting key insights, answering questions, and providing consequences of signing the document. The app allows users to upload legal documents (PDF, DOCX, or TXT formats) and performs natural language processing (NLP) to extract and analyze the content.
 
 ---
