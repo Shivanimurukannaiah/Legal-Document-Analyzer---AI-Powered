@@ -89,6 +89,26 @@ This will install the required Python libraries:
 3. **Access the app**: Open your web browser and go to `http://localhost:8501` to interact with the app.
 
 ---
+Methodologies Used
+
+This project leverages the following AI and engineering methodologies:
+
+Document Parsing & Preprocessing: Extract text from PDF, DOCX, and TXT files using PyPDF2 and python-docx, followed by cleaning and chunking for LLM inputs.
+
+Zero-Shot Prompting: Directly query GPT-3.5/4 without examples using clear, structured prompts for Q&A and extraction tasks.
+
+Few-Shot Prompting: Provide brief examples in prompts for consistent formatting when summarizing clauses or generating question/answer pairs.
+
+Persona Prompting: Use system messages (e.g., “You are a legal analysis assistant”) to set the LLM’s role and tone.
+
+Chain-of-Thought & Reasoning: Encourage step-by-step explanations for complex legal interpretations and consequence analysis.
+
+Streamlit UI: Rapidly build an interactive web interface for file upload, display of results, and custom question entry.
+
+Error Handling & Validation: Safely handle file parsing errors, oversized documents, and API failures.
+
+Deployment & Scalability: Use Docker or cloud services to scale processing for large documents and multiple users.
+
 
 ## How It Works
 
@@ -138,45 +158,15 @@ Questions:
    - Legal Consequences
 
 ---
+Example Output
 
-## Contributing
+Below is an example of the Analyzer's output for a sample contract:
 
-We welcome contributions to improve the project! If you would like to contribute, please fork the repository and submit a pull request. Some ways you can contribute include:
 
-- Improving documentation
-- Enhancing the functionality
-- Fixing bugs or adding new features
+Figure: AI-generated summary, Q&A, and consequences panel.
+(photo_2025-04-28_17-47-09.jpg)
 
-To contribute, follow these steps:
 
-1. Fork the repository.
-2. Clone your forked repository:
-
-   ```bash
-   git clone https://github.com/yourusername/legal-document-analyzer.git
-   ```
-
-3. Create a new branch for your changes:
-
-   ```bash
-   git checkout -b new-feature
-   ```
-
-4. Make your changes and commit them:
-
-   ```bash
-   git commit -m "Added new feature"
-   ```
-
-5. Push the changes to your fork:
-
-   ```bash
-   git push origin new-feature
-   ```
-
-6. Open a pull request to the main repository.
-
----
 
 ## License
 
@@ -184,14 +174,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## Acknowledgments
-
-- **Streamlit**: For providing an easy-to-use library to create interactive web apps.
-- **OpenAI**: For providing cutting-edge AI models that power the document analysis.
-- **PyPDF2 & python-docx**: For extracting text from PDF and DOCX files respectively.
-
----
-
-This is a comprehensive **README** that explains your project, installation steps, usage instructions, and more! You can use this as the `README.md` in your GitHub repository.
-
-Let me know if you need further adjustments!
