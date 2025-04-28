@@ -164,7 +164,7 @@ Below is an example of the Analyzer's output for a sample contract:
 
 
 Figure: AI-generated summary, Q&A, and consequences panel.
-(photo_2025-04-28_17-47-09.jpg)
+![Screenshot](IMG_3444.JPG)
 
 
 
