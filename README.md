@@ -1,4 +1,4 @@
-# Legal-Document-Analyzer---AI-Powered
+# Legal-Document-Analyzer AI-Powered
 Legal Document Analyzer is an AI-powered web application that allows users to upload legal documents (PDF, DOCX, or TXT formats). The app analyzes the content using OpenAI's GPT-3.5/4 to extract
 Certainly! Here’s a **detailed README** for your project:
 
